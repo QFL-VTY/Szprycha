@@ -22,10 +22,29 @@ $cennik = [
 <body>
 
     <header>
-        <div class="brand">
-            <h1>Szprycha</h1>
-            <p>Twoja lokalna pracownia rowerowa</p>
-        </div>
+        <a class="logo" href="#">
+		<svg viewBox="0 0 120 64" width="72" height="38"
+			role="img" aria-labelledby="logo-tytul">
+
+			<circle cx="28" cy="42" r="16" fill="none"
+					stroke="#ffcc00" stroke-width="4"/>
+			<circle cx="92" cy="42" r="16" fill="none"
+					stroke="#ffcc00" stroke-width="4"/>
+
+				<polyline points="28,42 50,18 60,42 28,42"
+					fill="none" stroke="#ffffff" stroke-width="4"
+					stroke-linejoin="round"/>
+
+			<polyline points="50,18 76,18 60,42 50,18"
+					fill="none" stroke="#ffffff" stroke-width="4"
+					stroke-linejoin="round"/>
+
+			<polyline points="76,18 92,42"
+					fill="none" stroke="#ffffff" stroke-width="4"
+					stroke-linejoin="round"/>
+		</svg>
+            <span>Szprycha</span>
+        </a>
         
         <button class="menu-toggle" aria-expanded="false" aria-label="Menu">
             ☰ Menu

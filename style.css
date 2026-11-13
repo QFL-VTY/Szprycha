@@ -175,7 +175,25 @@ footer a:hover {
 	color: #888888;
 }
 
-/* Przycisk menu mobilnego - ostry i kanciasty */
+header .logo {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	text-decoration: none;
+}
+
+header .logo span {
+	color: #ffcc00;
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+header .logo svg {
+	vertical-align: middle;
+}
+
 .menu-toggle {
 	display: none;
 	background: #ffcc00;
