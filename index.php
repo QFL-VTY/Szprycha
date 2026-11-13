@@ -1,3 +1,7 @@
+<?php
+$firma = 'Szprycha';
+$rok = date('Y');
+?>
 <!doctype html>
 <html lang="pl">
 	<head>
@@ -31,7 +35,6 @@
 			<!-- Sekcja 1: Oferta -->
 			<section id="oferta">
 				<h2>Nasza oferta</h2>
-
 				<div class="cards-container">
 					<article class="card">
 						<h3>Przegląd podstawowy</h3>
@@ -112,7 +115,9 @@
 				</p>
 				<p>Godziny otwarcia: Pon–Pt 10:00–18:00, Sob 10:00–14:00</p>
 			</address>
-			<p class="copyright">&copy; 2026 Szprycha. Wszelkie prawa zastrzeżone.</p>
+			<p class="copyright">
+				&copy; <?= $rok; ?> <?= $firma; ?>. Wszelkie prawa zastrzeżone.
+			</p>
 		</footer>
 	</body>
 </html>
