@@ -1,0 +1,14 @@
+/* Panel i logowanie: prosty Bootstrap w kolorach istniejącej strony Szprycha. */
+body.panel-body { background: #f7f7f7; color: #111111; }
+.navbar-szprycha { background: #111111; border-bottom: 4px solid #ffcc00; }
+.navbar-szprycha .navbar-brand { color: #ffcc00; text-transform: uppercase; letter-spacing: 2px; font-weight: 800; }
+.navbar-szprycha .navbar-brand:hover { color: #ffcc00; }
+.navbar-szprycha .navbar-brand svg { vertical-align: middle; }
+.panel-title { border-left: 6px solid #ffcc00; padding-left: 12px; text-transform: uppercase; }
+.panel-card { border: 2px solid #111111; border-radius: 0; }
+.panel-card .card-header { background: #111111; color: #ffcc00; font-weight: 700; border-radius: 0; }
+.btn-primary { background: #ffcc00; border-color: #111111; color: #111111; font-weight: bold; }
+.btn-primary:hover, .btn-primary:focus { background: #e6b800; border-color: #111111; color: #111111; }
+.form-control:focus { border-color: #b88e00; box-shadow: 0 0 0 .2rem #ffcc0040; }
+.table thead { --bs-table-bg: #111111; --bs-table-color: #ffcc00; }
+.table td { vertical-align: middle; }
